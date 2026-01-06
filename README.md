@@ -57,7 +57,7 @@ Welcome! This is a collection of essential commands and security notes documente
 ### 🎯 Learning Progress for 2026
 - [x] Master basic navigation
 - [x] Understand multi-user permissions
-- [ ] Learn Shell Scripting (.sh files)
+- [x] Learn Shell Scripting (.sh files)
 - [ ] Set up a firewall (UFW)
 
 > "The root of all knowledge begins with a single command."
