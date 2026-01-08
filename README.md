@@ -59,6 +59,9 @@ Welcome! This is a collection of essential commands and security notes documente
 - [x] Understand multi-user permissions
 - [x] Learn Shell Scripting (.sh files)
 - [x] Understand the difference between Virtual and Bare Metal (Physical) environments.
-- [ ] Set up a firewall (UFW)
+- [x] Practice "Log Analysis" by importing text files into a Spreadsheet.
+- [x] Understand how Pivot Tables help identify security anomalies.
+- [x] Learn the difference between a "Vulnerability" and a "Threat" 
+- [x] Set up a firewall (UFW)
 
 > "The root of all knowledge begins with a single command."
