@@ -31,14 +31,6 @@ Welcome! This is a collection of essential commands and security notes documente
 | `mkdir [name]` | Create a new folder. |
 | `rm -i [file]` | Remove a file (with a prompt to prevent accidents). |
 
-## 🌐 Network & Connectivity
-| Command | Purpose |
-| :--- | :--- |
-| `ip addr` | Show your local IP address and network interfaces. |
-| `ping [website.com]` | Test the connection to a remote server. |
-| `curl -I [url]` | Fetch the header of a website to check its status. |
-| `ssh [user]@[ip]` | Securely connect to a remote Linux machine. |
-
 ## 📝 Reading & Searching Files
 | Command | Purpose |
 | :--- | :--- |
@@ -47,13 +39,27 @@ Welcome! This is a collection of essential commands and security notes documente
 | `tail -f [file]` | Follow a file in real-time (perfect for watching security logs). |
 | `nano [file]` | A beginner-friendly text editor for the terminal. |
 
+### 🔑 SSH & Remote Access Commands
+| Command | Purpose |
+| :--- | :--- |
+| `ssh-keygen` | Create your secure "key" identity (Private/Public pair). |
+| `ssh-copy-id user@host` | Send your public key to a server for password-less login. |
+| `ssh user@host` | Connect to the remote machine securely. |
+| `scp file.txt user@host:/path` | **S**ecure **C**opy a file from your machine to a remote server. |
+
+### 🔍 Security Analysis (Log Monitoring)
+| Command | Purpose |
+| :--- | :--- |
+| `grep "sshd" /var/log/auth.log` | Filter the logs to show only SSH-related events. |
+| `tail -f /var/log/auth.log` | Watch login attempts in real-time (Live Monitoring). |
+| `last` | Show a list of all users who have logged in recently. |
+
 ## 🔄 The REPL & Advanced Tools
 - **Python REPL:** Type `python3` to enter an interactive math/logic environment.
 - **Node REPL:** Type `node` to test JavaScript code instantly.
 - **The Pipe (`|`):** Use this to send the output of one command to another. 
   - *Example:* `history | grep "sudo"` (Finds every time you used sudo).
 
----
 ### 🎯 Learning Progress for 2026
 - [x] Master basic navigation
 - [x] Understand multi-user permissions
